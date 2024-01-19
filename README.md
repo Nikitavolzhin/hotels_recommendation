@@ -6,6 +6,8 @@ In function.ipynb there is a recommender function which is my solution I will de
 The function file is duplicated in the venv directory as function.py. venv directory is
 a virtual environment for the project. There are 3 files for the server side of the side.
 The client part of the site files (.html/.css files) are located in templates and static directories
+NB: due the weight of the dataset I did not upload it on GitHub, but it can be accessed by the link
+https://drive.google.com/file/d/1wYW_pLEEFluEejgkg_I2emxLjy9YZ5GG/view?usp=share_link
 # About the dataset
 Different hotels have completely different representations in the dataset
 (some hotels are represented less than 50 times, while others over 15 000 times).
