@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% for hotel in recommended %}
+        <h3>{{ hotel[0] }}</h3>
+        <ul>
+            <li>Rating: {{ hotel[1] }}</li>
+            {% for review in hotel[2] %}
+                <li>{{ review }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+{% endblock %}

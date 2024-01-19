@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% from "bootstrap4/form.html" import render_form %}
+
+
+{% block content %}
+    <div class="title">
+        <h1>Hotel Recommendation System</h1>
+    </div>
+
+    <div class="form-group">
+        {{ render_form(form, method="POST") }}
+    </div>
+{% endblock %}
