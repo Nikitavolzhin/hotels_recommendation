@@ -37,7 +37,6 @@ what they want to have and what to avoid, applying a positive review model on wh
 Then I take the 50 most probable hotels and remove the ones that predicted the negative model. On the site, I implemented filtering
 by the minimum score.
 # Site
-I decided to create a simple site as an interface to interact with the model. For this, I used Flask(because I am not a web developer and
-apparently Flask was the simplest to use). The site consists of two pages: one with 3 fields asking the user what they want, don't want,
-and min. score. After this form is filled out the site redirects the user to the page showing the recommended hotels, their score, and 3
-positive reviews below each of them.
+I decided to create a simple site as an interface to interact with the model. For this, I used Flask(because I am not a web developer and Flask was the simplest to use). The site consists of two pages: one with 3 fields asking the user what they want, don't want,
+and min. hotel rating. After this form is filled out the site redirects the user to the page showing the recommended hotels, their score, and 3
+positive reviews below them.
